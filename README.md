@@ -10,20 +10,19 @@ e.g.
 
   Per [best practices](https://hackernoon.com/fractal-a-react-app-structure-for-infinite-scale-4dab943092af)
 
-* remove bootstrapped service worker implementation
-
 * `@material-ui/core` package
 
 * `Root` component
    * `MuiTheme`
    * `CssBaseline`
-   * wraps the `App` component
+   * basic styling
+   * wraps the `Home` page component
 
 * `HeroUnit` component
 
 * CSS in JS
 
-  Most css moved from `App.css` to CSS in js code.
+  Most css moved from `Home.css` to CSS in js code.
 
 ## Blog
 

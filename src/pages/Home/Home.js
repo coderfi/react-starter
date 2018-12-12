@@ -20,7 +20,7 @@ const styles = (theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing.unit * 2,
   },
-  app: {
+  home: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing.unit * 0,
 
@@ -32,7 +32,7 @@ const styles = (theme) => ({
   },
 });
 
-class App extends Component {
+class Home extends Component {
   render() {
     const { classes } = this.props;
 
@@ -41,10 +41,10 @@ class App extends Component {
         <header className={classes.header}>
           <Header />
         </header>
-        <main className={classes.app}>
+        <main className={classes.home}>
           <HeroUnit>
             <div align='center'>
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={logo} alt="logo" />
             </div>
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               React Material UI Starter Project
@@ -86,4 +86,4 @@ class App extends Component {
   }
 }
 
-export default withStyles(styles)(App);
+export default withStyles(styles)(Home);
