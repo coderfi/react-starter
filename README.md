@@ -76,3 +76,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 * Redux
 * Redux-Thunk
 * React-Router
+* [React with Typescript](https://github.com/mui-org/material-ui/tree/master/examples/create-react-app-with-typescript)
+
