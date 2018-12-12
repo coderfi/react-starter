@@ -1,0 +1,84 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "__CONFIG__": true,
+        "__ENV__": true,
+        "document": true,
+        "window": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [
+        "jsx",
+        "jsx-a11y"
+    ],
+    "rules": {
+        "arrow-body-style": 0,
+        "arrow-parens": [
+            "warn",
+            "always"
+        ],
+        "comma-dangle": [
+            2,
+            "always-multiline"
+        ],
+        "global-require": 0,
+        "import/no-unresolved": 0,
+        "import/prefer-default-export": 0,
+        "indent": [
+            "error",
+            2
+        ],
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "aspects": [
+                    "noHref",
+                    "invalidHref",
+                    "preferButton"
+                ],
+                "components": [
+                    "Link"
+                ],
+                "specialLink": [
+                    "to",
+                    "hrefLeft",
+                    "hrefRight"
+                ]
+            }
+        ],
+        "jsx-a11y/href-no-hash": 0,
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "new-cap": 0,
+        "no-console": 0,
+        "no-underscore-dangle": 0,
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "react/forbid-prop-types": 0,
+        "react/jsx-filename-extension": 0,
+        "react/jsx-uses-react": 1,
+        "react/prop-types": 0,
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
