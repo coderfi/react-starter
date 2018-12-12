@@ -1,14 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    npx create-react-app react-material-ui
+e.g.
 
-See the [@coderfi Blog](https://blog.coderfi.com/react-starter-material-ui) for more information.
+    npx create-react-app react-material-ui
 
 ## Customizations
 
 * `fractal` folder structure
 
-  Per [best practices](https://hackernoon.com/fractal-a-react-app-structure-for-infinite-scale-4dab943092af
+  Per [best practices](https://hackernoon.com/fractal-a-react-app-structure-for-infinite-scale-4dab943092af)
 
 * remove bootstrapped service worker implementation
 
@@ -24,6 +24,10 @@ See the [@coderfi Blog](https://blog.coderfi.com/react-starter-material-ui) for 
 * CSS in JS
 
   Most css moved from `App.css` to CSS in js code.
+
+## Blog
+
+See the [@coderfi Blog](https://blog.coderfi.com/2018/12/11/react-starter-material-ui/) for more information.
 
 ## Available Scripts
 
